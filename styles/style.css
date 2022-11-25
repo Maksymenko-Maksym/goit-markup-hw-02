@@ -55,9 +55,24 @@
 /* .hard-skills-list {
 
 } */
+.team-members-section {
+    background-color: #F5F4FA;
+}
 .team-members-section > h2, ul > li > h3 {
     color: var(--header-color);
 }
 .team-members-section > ul > li > p {
     color: var(--p-color);
+}
+#contacts {
+    background-color: #2F303A;
+}
+.studio-color {
+    color: #FFFFFF;
+}
+.street {
+    color: #fff;
+}
+.footer-mail, .footer-tel {
+    color: rgba(255, 255, 255, 0.6);
 }
