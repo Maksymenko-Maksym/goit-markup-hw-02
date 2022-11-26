@@ -39,6 +39,7 @@
 }
 .hero-button {
     background-color: var(--select-color);
+    color: rgba(255, 255, 255, 1);
 }
 .methods-section {
     background-color: #fff;
