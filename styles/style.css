@@ -10,7 +10,9 @@
 :root {
     --select-color:#2196F3;
 }
-
+body {
+    font-family: 'monserrat', sans-serif;
+}
 
 .header {
     background-color: #FFFFFF;
@@ -61,6 +63,7 @@
 }
 .team-members-section > h2, ul > li > h3 {
     color: var(--header-color);
+    
 }
 .team-members-section > ul > li > p {
     color: var(--p-color);
