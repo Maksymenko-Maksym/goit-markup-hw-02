@@ -11,25 +11,54 @@
     --select-color:#2196F3;
 }
 body {
-    font-family: 'monserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
-
+ul {
+    list-style-type: none;  
+}
 .header {
     background-color: #FFFFFF;
     /* width: 1600px;
     height: 80px; */
 }
-.web-color {
+.logo-web {
     color: var(--select-color);
+    text-decoration: none;
 }
-.logo {
+.logo-studio {
     color: #000;
+    text-decoration: none;
 }
 .navigation > li {
     color: var(--header-color);
 }
-.mail-tel-ul > li {
+.header-links {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-links:hover {
+    color :var(--select-color);
+}
+.header-links:active {
+    color : var(--select-color);
+}
+.header-navigation {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+}
+.header-contacts {
     color: var(--p-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    width: 122px;
+    height: 16px;
 }
 .hero-section {
     background-color: #2F303A;
@@ -69,14 +98,40 @@ body {
     color: var(--p-color);
 }
 #contacts {
-    background-color: #2F303A;
+    background-color: #2f3a35;
+    list-style-type: none;
 }
 .studio-color {
     color: #FFFFFF;
 }
-.street {
-    color: #fff;
+.footer-links {
+    cursor: pointer;
 }
-.footer-mail, .footer-tel {
+.footer-links:hover {
+    color: var(--select-color);
+}
+.footer-links:active {
+    color: var(--select-color);
+}
+.footer-address-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    width: 231px;
+    height: 21px;   
+}
+.footer-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 231px;
+    height: 21px;   
     color: rgba(255, 255, 255, 0.6);
 }
