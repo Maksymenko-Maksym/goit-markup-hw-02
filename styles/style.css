@@ -12,6 +12,7 @@
 }
 body {
     font-family: 'roboto', sans-serif;
+    color: var(--header-color);
 }
 ul {
     list-style-type: none;  
