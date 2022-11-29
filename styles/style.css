@@ -2,13 +2,13 @@
     color: #212121;
 } */
 :root {
-    --header-color:#212121;
+    --header-color:rgba(33, 33, 33, 1);
 }
 :root {
-    --p-color:#757575;
+    --p-color:rgba(117, 117, 117, 1);
 }
 :root {
-    --select-color:#2196F3;
+    --select-color:rgba(33, 150, 243, 1);
 }
 body {
     font-family: 'roboto', sans-serif;
@@ -61,16 +61,38 @@ ul {
     height: 16px;
 }
 .hero-section {
-    background-color: #2F303A;
-    /* width: 1600px;
-    height: 600px; */
+    background-color:rgba(47, 48, 58, 1);
+    width: 1600px;
 }
 .hero-section > h1 {
-    color: var(--header-color);
+    color:rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-button {
     background-color: var(--select-color);
     color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;   
+    border-radius: 4px;  
+}
+.hero-button:hover {
+    background-color: rgb(66, 163, 243);
+    cursor: pointer;
+    border: 1px;
+
+}
+.hero-button:active {
+
 }
 .methods-section {
     background-color: #fff;
