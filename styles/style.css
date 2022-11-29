@@ -100,11 +100,38 @@ ul {
 .methods-section > h2, h3 {
     color: var(--header-color);
 }
+.methods-tittle {
+    display: none;
+}
 .methods-list > li> p {
     color: var(--p-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 270px;
+    height: 72px;
+}
+.methods-list > li> h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 270px;
+    height: 16px;
+    color: var(--header-color);
 }
 .hard-skills-section > h2 {
     color: var(--header-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 /* .hard-skills-list {
 
