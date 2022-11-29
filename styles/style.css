@@ -125,13 +125,13 @@ ul {
     color: var(--header-color);
 }
 .hard-skills-section > h2 {
-    color: var(--header-color);
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 36px;
+    line-height: 42px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    width: 366px;
+    color: var(--header-color);
 }
 /* .hard-skills-list {
 
