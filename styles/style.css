@@ -1,13 +1,6 @@
-/* body {
-    color: #212121;
-} */
 :root {
     --header-color:rgba(33, 33, 33, 1);
-}
-:root {
     --p-color:rgba(117, 117, 117, 1);
-}
-:root {
     --select-color:rgba(33, 150, 243, 1);
 }
 body {
@@ -18,23 +11,33 @@ ul {
     list-style-type: none;  
 }
 .header {
-    background-color: #FFFFFF;
+    background-color:rgba(255, 255, 255, 1);
     display: inline-block;
     opacity: 1;
     /* width: 1600px;
     height: 80px; */
+}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    width: 145px;
+    height: 31px;
 }
 .logo-web {
     color: var(--select-color);
     text-decoration: none;
 }
 .logo-studio {
-    color: #000;
+    color: rgba(0, 0, 0, 1);
     text-decoration: none;
 }
-.navigation > li {
+/* .navigation > li {
     color: var(--header-color);
-}
+} */
 .header-links {
     text-decoration: none;
     cursor: pointer;
@@ -67,7 +70,15 @@ ul {
     background-color:rgba(47, 48, 58, 1);
     width: 1600px;
 }
-.hero-section > h1 {
+.hero-section-subtittle {
+    color:rgba(255, 255, 255, 1);
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* .hero-section > h1 {
     color:rgba(255, 255, 255, 1);
     font-style: normal;
     font-weight: 900;
@@ -76,8 +87,7 @@ ul {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-    text-transform: capitalize;
-}
+} */
 .hero-button {
     background-color: var(--select-color);
     color: rgba(255, 255, 255, 1);
@@ -89,6 +99,7 @@ ul {
     width: 216px;
     height: 50px;   
     border-radius: 4px;
+    font-family: 'roboto', sans-serif;
 }
 .hero-button:hover {
     background-color: rgb(66, 163, 243);
@@ -102,13 +113,29 @@ ul {
 .methods-section {
     background-color: #fff;
 }
-.methods-section > h2, h3 {
-    color: var(--header-color);
+.hard-skills-tittle {
+text-align: center;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
 }
+/* .hard-skills-section > h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+} */
+/* .hard-skills-list {
+} */
+/* .methods-section > h2, h3 {
+    color: var(--header-color);
+} */
 .methods-tittle {
     display: none;
 }
-.methods-list > li> p {
+/* .methods-list > li> p {
     color: var(--p-color);
     font-style: normal;
     font-weight: 400;
@@ -117,8 +144,16 @@ ul {
     letter-spacing: 0.03em;
     width: 270px;
     height: 72px;
+} */
+.methods-list-text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 270px;
+    height: 72px;
+    color: var(--p-color);
 }
-.methods-list > li> h3 {
+/* .methods-list > li> h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -128,42 +163,43 @@ ul {
     width: 270px;
     height: 16px;
     color: var(--header-color);
-}
-.hard-skills-section > h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+} */
+.methods-list-subtittle {
+    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.03em;
-    width: 366px;
+    text-transform: uppercase;
+    width: 270px;
+    height: 16px;
     color: var(--header-color);
 }
-/* .hard-skills-list {
-
-} */
 .team-members-section {
     background-color: rgba(245, 244, 250, 1);
 }
-.team-members-section > h2, ul > li > h3 {
+/* .team-members-section > h2, ul > li > h3 {
     color: var(--header-color);
-}
-.team-members-section > h2 {
-    font-style: normal;
-    font-weight: 700;
+} */
+.team-tittle {
     font-size: 36px;
     line-height: 42px;
-    letter-spacing: 0.03em;
-    width: 264px;
+    text-align: center;
+    letter-spacing: 0.03em; 
 }
-.team-members-section > h3 {
+/* .team-members-section > h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
     width: 129px;
+} */
+.team-members-subtitle {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    width: 129px;  
 }
-.team-members-section > ul > li > p {
+/* .team-members-section > ul > li > p {
     color: var(--p-color);
     font-style: normal;
     font-weight: 400;
@@ -171,6 +207,13 @@ ul {
     line-height: 19px;
     letter-spacing: 0.03em;
     width: 147px;
+} */
+.team-members-text {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    width: 147px;
+    color: var(--p-color);
 }
 #contacts {
     background-color: #2f3a35;
