@@ -105,10 +105,11 @@ ul {
     background-color: rgb(66, 163, 243);
     cursor: pointer;
     border: 1px;
-
 }
-.hero-button:active {
-
+.hero-button:focus {
+    background-color: rgb(66, 163, 243);
+    cursor: pointer;
+    border: 1px;
 }
 .methods-section {
     background-color: #fff;
@@ -253,3 +254,60 @@ letter-spacing: 0.03em;
     height: 21px;   
     color: rgba(255, 255, 255, 0.6);
 }
+/* Portfolio */
+.filrers-title {
+    display: none;
+}
+ .filter-button {
+    background-color: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    color: var(--header-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+ }
+ .button-all {
+    width: 73px;
+ }
+ .button-web-site {
+    width: 125px;
+ }
+ .button-application {
+    width: 112px;
+ }
+ .button-design {
+    width: 103px;
+ }
+ .button-marceting {
+    width: 130px;
+ }
+ .filter-button:hover {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08), 
+     0px 2px 2px rgba(0, 0, 0, 0.12);
+     background-color: var(--select-color);
+     color: rgba(255, 255, 255, 1);
+border-radius: 4px;
+ }
+
+ .projects-subtitle {
+    display: none;
+ }
+ .project-list-item {
+    color: var(--header-color);
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    width: 322px;
+ }
+ .project-list-text {
+    width: 322px;
+    color: var(--p-color);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+ }
