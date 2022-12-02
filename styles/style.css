@@ -78,11 +78,6 @@ ul {
     cursor: pointer;
     border: 1px;
 }
-.hero-button:focus {
-    background-color: rgb(66, 163, 243);
-    cursor: pointer;
-    border: 1px;
-}
 .methods-section {
     background-color: var(--white-text-color);
 }
@@ -189,6 +184,14 @@ ul {
     letter-spacing: 0.03em;
  }
  .filter-button:hover {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08), 
+     0px 2px 2px rgba(0, 0, 0, 0.12);
+     background-color: var(--select-color);
+     color: var(--white-text-color);
+    border-radius: 4px;
+ }
+ .filter-button:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
      0px 1px 2px rgba(0, 0, 0, 0.08), 
      0px 2px 2px rgba(0, 0, 0, 0.12);
